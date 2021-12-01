@@ -30,3 +30,8 @@
 21      commit -m "Paso 21"
 22      checkout Lola
 23      stash pop
+24      La fusion se ha realizado de manera recursiva, ya que Lola no tenia el ultimo commit de master
+25      add bitacora.txt
+26      commit -m "Paso 26"
+27      checkout master
+28      merge Lola

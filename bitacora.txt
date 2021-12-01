@@ -6,3 +6,17 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13      checkout master
+14      La fusion seria por Fast-Fordward ya que el ultimo commit de master esta dentro de Lola

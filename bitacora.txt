@@ -25,7 +25,7 @@
 16      add bitacora.txt
 17      commit -m "Paso 17"
 18      merge Paco    Ha habido conflicto solucionado mediante First their then ours
-19      La fusion se ha hecho al final mediante fast-fordward
+19      La fusion se ha hecho al final de manera recursiva
 20      add bitacora.txt
 21      commit -m "Paso 21"
 22      checkout Lola
@@ -35,3 +35,9 @@
 26      commit -m "Paso 26"
 27      checkout master
 28      merge Lola
+
+
+Se ha modifica el archivo bitacora despues del ultimo commit, para modificar
+la linea 19 e indicar que la fusion se ha hecho de manera recursiva y no mediante
+fast-fordward, ya que master ha hecho un commit justo antes de la fusion con Paco,
+por lo que Paco no tiene el ultimo commit de master

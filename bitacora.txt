@@ -6,21 +6,18 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+<<<<<<< HEAD
 1       Clone
 2       Branch Paco
 3       Branch Lola
 4       Checkout Paco
-1
-2
-3
-4
 5
-6
-7
-8
+6       add bitacora.txt
+7       commit -m "Paso 7"
+8       checkout Lola
 9
-10
-11
+10      add bitacora.txt
+11      commit -m "Paso 11"
 12
 13      checkout master
 14      La fusion seria por Fast-Fordward ya que el ultimo commit de master esta dentro de Lola
@@ -29,3 +26,7 @@
 17      commit -m "Paso 17"
 18      merge Paco    Ha habido conflicto solucionado mediante First their then ours
 19      La fusion se ha hecho al final mediante fast-fordward
+20      add bitacora.txt
+21      commit -m "Paso 21"
+22      checkout Lola
+23      stash pop

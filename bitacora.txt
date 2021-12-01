@@ -24,3 +24,8 @@
 12
 13      checkout master
 14      La fusion seria por Fast-Fordward ya que el ultimo commit de master esta dentro de Lola
+15
+16      add bitacora.txt
+17      commit -m "Paso 17"
+18      merge Paco    Ha habido conflicto solucionado mediante First their then ours
+19      La fusion se ha hecho al final mediante fast-fordward
